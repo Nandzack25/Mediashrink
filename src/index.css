@@ -112,4 +112,7 @@
   body {
     @apply bg-background text-on-background font-body-md text-body-md antialiased min-h-screen flex selection:bg-primary selection:text-on-primary;
   }
+  #root {
+    @apply w-full flex flex-col min-h-screen;
+  }
 }
