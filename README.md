@@ -57,5 +57,3 @@ Menyembunyikan teks/pesan rahasia ke dalam gambar (Kriptografi).
    npm run dev
    ```
 
-## 📜 Pertahanan Akademis (Academic Defense)
-Proyek ini dibangun untuk menantang batas komputasi sisi *Client* (*Browser*). Membedah *file audio* byte-per-byte dan merender *frame video* di atas kanvas secara perulangan memakan daya RAM dan komputasi yang tinggi. Hal ini membuktikan bahwa pengolahan sinyal digital (DSP) dan manipulasi piksel dapat dieksekusi secara manual tanpa bantuan *library* C++ pihak ketiga, memenuhi syarat kompetensi ketat dalam rekayasa perangkat lunak mandiri.
