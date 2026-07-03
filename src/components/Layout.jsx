@@ -16,7 +16,9 @@ export default function Layout() {
 
   const navItems = [
     { name: 'Dashboard', path: '/dashboard', icon: 'dashboard' },
-    { name: 'Compress Image', path: '/compress', icon: 'compress' },
+    { name: 'Compress Image', path: '/compress', icon: 'image' },
+    { name: 'Compress Audio', path: '/audio', icon: 'audiotrack' },
+    { name: 'Compress Video', path: '/video', icon: 'movie' },
     { name: 'Steganography', path: '/stegano', icon: 'enhanced_encryption' },
     { name: 'History', path: '/history', icon: 'history' },
   ]

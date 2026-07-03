@@ -10,6 +10,9 @@ import Compress from './pages/Compress'
 import Stegano from './pages/Stegano'
 import History from './pages/History'
 
+import AudioCompress from './pages/AudioCompress'
+import VideoCompress from './pages/VideoCompress'
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -24,6 +27,8 @@ export default function App() {
               <Route path="/" element={<Navigate to="/dashboard" replace />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/compress" element={<Compress />} />
+              <Route path="/audio" element={<AudioCompress />} />
+              <Route path="/video" element={<VideoCompress />} />
               <Route path="/stegano" element={<Stegano />} />
               <Route path="/history" element={<History />} />
             </Route>
